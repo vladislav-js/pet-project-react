@@ -91,7 +91,7 @@ export function HeaderMegaMenu() {
   ));
 
   return (
-    <Box pb={120}>
+    <Box>
       <header className={classes.header}>
         <Group justify="space-between" h="100%">
           <h1>Our project</h1>
@@ -150,10 +150,10 @@ export function HeaderMegaMenu() {
               </HoverCard.Dropdown>
             </HoverCard>
             <a href="#" className={classes.link}>
-              Learn
+              Contacts
             </a>
             <a href="#" className={classes.link}>
-              Academy
+              About us
             </a>
           </Group>
 
@@ -174,7 +174,6 @@ export function HeaderMegaMenu() {
         opened={drawerOpened}
         onClose={closeDrawer}
         size="100%"
-        padding="md"
         title="Navigation"
         hiddenFrom="sm"
         zIndex={1000000}
